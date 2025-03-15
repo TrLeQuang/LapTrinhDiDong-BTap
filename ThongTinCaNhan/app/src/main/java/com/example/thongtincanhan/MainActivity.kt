@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             // Hiển thị kết quả
             showResultDialog(name, age, ageGroup)
         } catch (e: NumberFormatException) {
-            Toast.makeText(this, "Tuổi phải là số", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Tuổi phải là con số", Toast.LENGTH_SHORT).show()
         }
     }
 
